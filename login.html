@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Login - Management System</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header><div class="bar">
+<a class="brand" href="index.html">Management System</a>
+<div class="dd"><button id="ddb" aria-expanded="false">Home ▾</button>
+<div class="menu" id="menu"><a href="index.html">Home</a><a href="home.html">Courses</a><a href="login.html" id="navauth">Login</a></div></div>
+</div></header>
+
+<main><div class="login"><div class="lbox">
+<div class="logo">M</div><h1 id="lt">Welcome Back!</h1><p id="ls">Sign in to continue to your account.</p>
+<div class="lcard"><form id="lf" novalidate>
+<h3 id="lh">Login to your account</h3><p class="sub" id="lsub">Enter your email and password to get started.</p>
+<label for="em">Email Address</label><input id="em" type="email" placeholder="name@example.com" autocomplete="email">
+<label for="pw">Password <span><button type="button" id="forgot">Forgot password?</button> <button type="button" id="show">Show</button></span></label>
+<input id="pw" type="password" placeholder="Enter your password" autocomplete="current-password">
+<div class="rem"><input type="checkbox" id="rm"><label for="rm" style="margin:0;font-weight:400;font-size:.8rem;color:inherit">Remember me</label></div>
+<p class="err" id="err" role="alert"></p>
+<button class="go" id="sub" type="submit">Sign In</button>
+<p class="alt"><span id="at">Don't have an account?</span> <button type="button" id="sw">Create an account</button></p>
+</form></div></div></div></main>
+<footer>© 2026 My Website. All rights reserved.</footer>
+
+<script src="js/common.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>
